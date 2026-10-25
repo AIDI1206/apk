@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_round_reply_all_24px"
+        android:id="@+id/navigation_home"
+        android:orderInCategory="100"
+        android:title="@string/title_home"/>
+    <item
+        android:icon="@drawable/ic_round_menu_24px"
+        android:id="@+id/navigation_dashboard"
+        android:orderInCategory="200"
+        android:title="@string/title_dashboard"/>
+    <item
+        android:icon="@drawable/ic_round_schedule_24px"
+        android:id="@+id/navigation_note"
+        android:orderInCategory="300"
+        android:title="@string/title_notifications"/>
+    <item
+        android:icon="@drawable/ic_marker_bk_20"
+        android:id="@+id/navigation_marker"
+        android:orderInCategory="400"
+        android:title="@string/title_activity_marker"/>
+    <item
+        android:icon="@drawable/ic_round_search_24px"
+        android:id="@+id/navigation_search"
+        android:orderInCategory="500"
+        android:title="@string/title_activity_mllogin"/>
+</menu>

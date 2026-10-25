@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="book_list_menu_array">
+        <item>ユーザ設定順</item>
+        <item>カテゴリ順</item>
+    </array>
+    <array name="bookshelf_inner_menu">
+        <item>ライブラリ</item>
+        <item>ヒストリー</item>
+    </array>
+    <array name="crypto_fingerprint_fallback_prefixes">
+    </array>
+    <array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </array>
+    <array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </array>
+    <array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </array>
+    <array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </array>
+    <array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </array>
+    <array name="history_filter_inner_menu">
+        <item>main</item>
+        <item>contents</item>
+        <item>marker</item>
+    </array>
+    <array name="history_inner_menu">
+        <item>書き込み履歴</item>
+        <item>　閲覧履歴　</item>
+    </array>
+    <array name="movie_types">
+        <item>共通</item>
+        <item>医学</item>
+        <item>看護</item>
+        <item>栄養</item>
+        <item>薬学</item>
+        <item>PTOT</item>
+        <item>介護</item>
+        <item>臨床検査</item>
+        <item>保健師</item>
+        <item>社福</item>
+    </array>
+    <array name="note_sort">
+        <item>更新日時順</item>
+        <item>コンテンツ順</item>
+    </array>
+    <array name="planets_array">
+        <item>このコンテンツ</item>
+        <item>すべてのコンテンツ</item>
+    </array>
+    <array name="qb_create_sort">
+        <item>作成日順</item>
+        <item>セット名順</item>
+        <item>演習履歴順</item>
+        <item>問題追加順</item>
+        <item>ユーザ設定順</item>
+    </array>
+    <array name="rangeSliderValues">
+        <item>20</item>
+        <item>70</item>
+    </array>
+    <array name="video_content_course_types">
+        <item>共通</item>
+        <item>医学</item>
+        <item>看護</item>
+        <item>栄養</item>
+        <item>薬学</item>
+        <item>PTOT</item>
+        <item>介護</item>
+        <item>臨床検査</item>
+        <item>保健師</item>
+        <item>社福</item>
+    </array>
+    <array name="video_filter">
+        <item>全コース</item>
+        <item>国試</item>
+        <item>CBT</item>
+        <item>実習・臨床</item>
+        <item>看護</item>
+        <item>購入済</item>
+    </array>
+</resources>

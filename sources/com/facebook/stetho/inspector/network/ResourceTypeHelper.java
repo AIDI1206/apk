@@ -1,0 +1,30 @@
+package com.facebook.stetho.inspector.network;
+
+import com.facebook.stetho.inspector.protocol.module.Page;
+import org.slf4j.Marker;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class ResourceTypeHelper {
+    private final MimeMatcher<Page.ResourceType> mMimeMatcher;
+
+    public ResourceTypeHelper() {
+        MimeMatcher<Page.ResourceType> mimeMatcher = new MimeMatcher<>();
+        this.mMimeMatcher = mimeMatcher;
+        mimeMatcher.addRule("text/css", Page.ResourceType.STYLESHEET);
+        mimeMatcher.addRule("image/*", Page.ResourceType.IMAGE);
+        mimeMatcher.addRule("application/x-javascript", Page.ResourceType.SCRIPT);
+        mimeMatcher.addRule("text/javascript", Page.ResourceType.XHR);
+        mimeMatcher.addRule("application/json", Page.ResourceType.XHR);
+        mimeMatcher.addRule("text/*", Page.ResourceType.DOCUMENT);
+        mimeMatcher.addRule(Marker.ANY_MARKER, Page.ResourceType.OTHER);
+    }
+
+    public Page.ResourceType determineResourceType(String str) {
+        return this.mMimeMatcher.match(stripContentExtras(str));
+    }
+
+    public String stripContentExtras(String str) {
+        int iIndexOf = str.indexOf(59);
+        return iIndexOf >= 0 ? str.substring(0, iIndexOf) : str;
+    }
+}

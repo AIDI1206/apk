@@ -1,0 +1,77 @@
+package com.google.android.gms.internal.mlkit_vision_text_common;
+
+import androidx.constraintlayout.core.motion.utils.TypedValues;
+import com.facebook.stetho.server.http.HttpStatus;
+import com.google.android.exoplayer2.metadata.dvbsi.AppInfoTableDecoder;
+import com.google.logging.type.LogSeverity;
+import io.realm.kotlin.internal.interop.realm_sync_errno_connection_e;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-mlkit-text-recognition-common@@19.1.0 */
+/* JADX INFO: loaded from: classes4.dex */
+public enum zzou implements zzcv {
+    NO_ERROR(0),
+    INCOMPATIBLE_INPUT(1),
+    INCOMPATIBLE_OUTPUT(2),
+    INCOMPATIBLE_TFLITE_VERSION(3),
+    MISSING_OP(4),
+    DATA_TYPE_ERROR(6),
+    TFLITE_INTERNAL_ERROR(7),
+    TFLITE_UNKNOWN_ERROR(8),
+    MEDIAPIPE_ERROR(9),
+    TIME_OUT_FETCHING_MODEL_METADATA(5),
+    MODEL_NOT_DOWNLOADED(100),
+    URI_EXPIRED(101),
+    NO_NETWORK_CONNECTION(102),
+    METERED_NETWORK(103),
+    DOWNLOAD_FAILED(104),
+    MODEL_INFO_DOWNLOAD_UNSUCCESSFUL_HTTP_STATUS(realm_sync_errno_connection_e.RLM_SYNC_ERR_CONNECTION_WRONG_PROTOCOL_VERSION),
+    MODEL_INFO_DOWNLOAD_NO_HASH(realm_sync_errno_connection_e.RLM_SYNC_ERR_CONNECTION_BAD_SESSION_IDENT),
+    MODEL_INFO_DOWNLOAD_CONNECTION_FAILED(realm_sync_errno_connection_e.RLM_SYNC_ERR_CONNECTION_REUSE_OF_SESSION_IDENT),
+    NO_VALID_MODEL(108),
+    LOCAL_MODEL_INVALID(109),
+    REMOTE_MODEL_INVALID(realm_sync_errno_connection_e.RLM_SYNC_ERR_CONNECTION_BAD_DECOMPRESSION),
+    REMOTE_MODEL_LOADER_ERROR(realm_sync_errno_connection_e.RLM_SYNC_ERR_CONNECTION_BAD_CHANGESET_HEADER_SYNTAX),
+    REMOTE_MODEL_LOADER_LOADS_NO_MODEL(realm_sync_errno_connection_e.RLM_SYNC_ERR_CONNECTION_BAD_CHANGESET_SIZE),
+    SMART_REPLY_LANG_ID_DETECTAION_FAILURE(realm_sync_errno_connection_e.RLM_SYNC_ERR_CONNECTION_SWITCH_TO_FLX_SYNC),
+    MODEL_NOT_REGISTERED(realm_sync_errno_connection_e.RLM_SYNC_ERR_CONNECTION_SWITCH_TO_PBS),
+    MODEL_TYPE_MISUSE(115),
+    MODEL_HASH_MISMATCH(AppInfoTableDecoder.APPLICATION_INFORMATION_TABLE_ID),
+    OPTIONAL_MODULE_NOT_AVAILABLE(201),
+    OPTIONAL_MODULE_INIT_ERROR(202),
+    OPTIONAL_MODULE_INFERENCE_ERROR(203),
+    OPTIONAL_MODULE_RELEASE_ERROR(204),
+    OPTIONAL_TFLITE_MODULE_INIT_ERROR(205),
+    NATIVE_LIBRARY_LOAD_ERROR(206),
+    OPTIONAL_MODULE_CREATE_ERROR(207),
+    CAMERAX_SOURCE_ERROR(301),
+    CAMERA1_SOURCE_CANT_START_ERROR(302),
+    CAMERA1_SOURCE_NO_SUITABLE_SIZE_ERROR(303),
+    CAMERA1_SOURCE_NO_SUITABLE_FPS_ERROR(304),
+    CAMERA1_SOURCE_NO_BYTE_SOURCE_FOUND_ERROR(305),
+    CODE_SCANNER_UNAVAILABLE(LogSeverity.WARNING_VALUE),
+    CODE_SCANNER_CANCELLED(TypedValues.CycleType.TYPE_CURVE_FIT),
+    CODE_SCANNER_CAMERA_PERMISSION_NOT_GRANTED(TypedValues.CycleType.TYPE_VISIBILITY),
+    CODE_SCANNER_APP_NAME_UNAVAILABLE(TypedValues.CycleType.TYPE_ALPHA),
+    CODE_SCANNER_TASK_IN_PROGRESS(HttpStatus.HTTP_NOT_FOUND),
+    CODE_SCANNER_PIPELINE_INITIALIZATION_ERROR(405),
+    CODE_SCANNER_PIPELINE_INFERENCE_ERROR(406),
+    CODE_SCANNER_GOOGLE_PLAY_SERVICES_VERSION_TOO_OLD(407),
+    LOW_LIGHT_AUTO_EXPOSURE_COMPUTATION_FAILURE(500),
+    LOW_LIGHT_IMAGE_CAPTURE_PROCESSING_FAILURE(501),
+    PERMISSION_DENIED(600),
+    CANCELLED(601),
+    GOOGLE_PLAY_SERVICES_VERSION_TOO_OLD(TypedValues.MotionType.TYPE_QUANTIZE_MOTION_PHASE),
+    LOW_MEMORY(TypedValues.MotionType.TYPE_EASING),
+    UNKNOWN_ERROR(9999);
+
+    private final int zzad;
+
+    zzou(int i) {
+        this.zzad = i;
+    }
+
+    @Override // com.google.android.gms.internal.mlkit_vision_text_common.zzcv
+    public final int zza() {
+        return this.zzad;
+    }
+}

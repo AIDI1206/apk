@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_custom_icon_icon_perfect"
+        android:id="@+id/toggle_start"/>
+    <item
+        android:icon="@drawable/ic_custom_icon_icon_good"
+        android:id="@+id/toggle_left"/>
+    <item
+        android:icon="@drawable/ic_custom_icon_icon_ok"
+        android:id="@+id/toggle_center"/>
+    <item
+        android:icon="@drawable/ic_custom_icon_icon_fail"
+        android:id="@+id/toggle_right"/>
+    <item
+        android:icon="@drawable/ic_custom_icon_icon_notry"
+        android:id="@+id/toggle_end"/>
+</menu>

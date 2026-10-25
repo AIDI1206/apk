@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_baseline_search_24px"
+        android:id="@+id/search"
+        android:title="@string/toolbar_menu_search"
+        app:showAsAction="collapseActionView|ifRoom"/>
+    <item
+        android:icon="@drawable/actionbar_group_icon"
+        android:id="@+id/setting"
+        android:title="@string/toolbar_menu_bookshelf_disp_edit"
+        app:showAsAction="collapseActionView|ifRoom"/>
+</menu>

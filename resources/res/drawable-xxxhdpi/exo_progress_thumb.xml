@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scaleWidth="100%"
+    android:scaleHeight="100%"
+    android:scaleGravity="center"
+    android:level="10000">
+    <shape android:shape="oval">
+        <solid android:color="@color/logout_background"/>
+        <size
+            android:height="16dp"
+            android:width="16dp"/>
+    </shape>
+</scale>

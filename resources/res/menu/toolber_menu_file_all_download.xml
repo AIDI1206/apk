@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_round_save_alt_white_24px"
+        android:id="@+id/all_download"
+        android:title="@string/toolbar_menu_all_download"
+        app:showAsAction="always"/>
+</menu>

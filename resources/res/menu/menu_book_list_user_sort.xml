@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/spinner"
+        android:background="#0000"
+        android:title="@string/book_list_menu_sort"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_qr_code_scanner_white_24dp"
+        android:id="@+id/qr_code"
+        android:title="@string/book_list_menu_qr"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/actionbar_group_icon"
+        android:id="@+id/infomation"
+        android:title="@string/book_list_menu_information"
+        app:showAsAction="always"/>
+    <item
+        android:icon="@drawable/ic_baseline_settings_applications_24px"
+        android:id="@+id/listedit"
+        android:title="@string/book_list_menu_contents_display"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:icon="@drawable/ic_baseline_settings_applications_24px"
+        android:id="@+id/listalldownload"
+        android:title="@string/book_list_menu_contents_download"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:icon="@drawable/ic_baseline_settings_applications_24px"
+        android:id="@+id/listsortedit"
+        android:title="@string/book_list_menu_contents_sort"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:icon="@drawable/ic_baseline_settings_applications_24px"
+        android:id="@+id/listdelete"
+        android:title="@string/book_list_menu_contents_delete"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:icon="@drawable/ic_baseline_settings_applications_24px"
+        android:id="@+id/setting"
+        android:title="@string/book_list_menu_setting"
+        app:showAsAction="collapseActionView"/>
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>greeting_message
+        </key>
+        <value>こんにちは！
+        </value>
+    </entry>
+    <entry>
+        <key>greeting_message_color
+        </key>
+        <value>#000000
+        </value>
+    </entry>
+</defaultsMap>
